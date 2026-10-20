@@ -4,7 +4,6 @@ namespace API.DTOs;
 
 public class RegisterDto
 {
-
     [Required]
     public string DisplayName { get; set; } = "";
 
